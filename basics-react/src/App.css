@@ -1,4 +1,4 @@
-.counter {
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +181,114 @@
     right: 0;
     border-right-color: var(--border);
   }
+} */
+  
+
+
+body {
+  font-family: Arial;
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
 }
+
+
+
+.greet {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+
+
+.welcome {
+  color: white;
+  margin: 15px 0;
+}
+
+.body {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.show-image {
+  width: 500px;
+  height: 350px;
+  display: block;
+  margin: 10px auto;
+  object-fit: cover;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+}
+
+.body h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 10px;
+}
+
+.counter-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.users-section {
+  background-color: black;
+  padding: 10px;
+}
+
+.user-form {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 20px solid black;
+}
+
+.user-form h2 {
+  color: black;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  width: 160px;
+  text-align: left;
+  color: black;
+}
+
+.form-group input {
+  padding: 8px;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .show-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .form-group label {
+    width: 100px;
+  }
+
+  .form-group input {
+    width: 100%;
+  }
+}
+
